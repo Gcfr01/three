@@ -1,0 +1,124 @@
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("img/bg-intro-mobile.png");
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;  
+    font-weight: 700; 
+}
+.head h1{
+	font-weight: 2000;
+
+	
+}
+.head p{
+	font-size: 16px;
+}
+
+	.trial{
+		background-color: hsl(248, 32%, 49%) ;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto 20px;
+		padding: 2px;
+		border-radius: 10px;
+		color: white;
+		box-shadow: 5px 5px hsl(246, 25%, 77%) ;
+	}
+	.form{
+		background-color: white;
+		padding: 20px;
+		text-align: center;
+		border-radius: 10px;
+		margin: 10px 10px 10px;
+	}
+	.form input{
+		width: 90%;
+		margin-bottom: 10px;
+		padding: 12px;
+		border-radius: 3px;
+		color: hsl(249, 10%, 26%) ;
+		border: 1px solid grey  ;
+	}
+      button{
+      	width: 100%;
+      	/*margin-bottom: 5px;*/
+		padding: 12px;
+		color: white;
+		border-radius: 5px;
+		border: none;
+		box-shadow: 5px 5px  ;
+	
+		background-color: hsl(154, 59%, 51%);
+      }
+      span{
+      	color: hsl(0, 100%, 74%);
+      }
+      .foot{
+      	font-size: 12px;
+      	font-weight: bolder;
+      	color: grey ;    	
+      }
+      @media only screen and (min-width: 570px){
+      	.container{
+      		display: flex;
+      		margin: 30px;	
+      		align-content: center;
+      		justify-content: center;
+      		justify-content: space-between;
+      	}
+      	.head{
+      		position: relative;
+      		top: 120px;
+      		font-size: 10px;
+      		font-weight: bolder;
+      		text-align: justify;
+      		margin-right: 20px;
+      		margin-left: 10px;
+      		
+      	}
+      	.head h1{
+      		max-width: 80%;
+      		text-align: center;
+      	}
+      	.head p{
+      		font-size:12px;
+      		max-width: 80%; 
+      	}
+      	.trial{
+      		font-size: 14px;
+      		padding: 0;
+      		border-radius: 2px;
+      		width: 80%;
+      		margin: 0 auto;
+      	}
+      	.form{
+      		max-width: 100%;
+      	}
+
+      }
+      @media only screen and (min-width: 725px){
+      	.head h1{
+      		font-size: 30px;
+      		max-width: 100%;
+      		text-align: center;
+      		justify-content: center;
+      		margin: 0 auto;
+
+      	}
+      	.head p{
+      		font-size: 14px;
+      	}
+      	body{   
+    background-image: url("img/bg-intro-desktop.png");
+    	}
+    	.trial{
+    		max-width: 100%;
+    		padding: 1px;
+    	}
+
+      }
+
